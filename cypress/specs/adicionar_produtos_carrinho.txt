@@ -1,0 +1,76 @@
+Objetivo: Garantir que o cadastro na API "Brazil Faz Bem" esteja funcionando
+
+
+1. Testes funcionais positivos
+    1.1. Compra de produto com categoria - 1 Nível ao carrinho sem passar cupom 
+        1.1.1. Selecionar produto categoria - 1 nivel ao carrinho
+        1.1.2. Validar se aparece na tela o subtitulo [CATEGORIA] Produto com categoria - 1 Nível
+        1.1.3. Clicar no Botão Comprar
+        1.1.4. Validar se realmente esta dentro do carrinho e aparece a mensagem 'Clique em finalizar compra para efetuar o seu pedido'
+        1.1.5. Validar se o nome do produto aparece [CATEGORIA] Produto com categoria - 1 Nível
+        1.1.6. Validar se o Preço unitário esta visível
+        1.1.7. Validar se a Quantidade esta visível
+        1.1.8. Validar se o Subtotal do produto esta visível
+        1.1.9. Validar se o Subtotal da compra esta visível
+        1.1.10. Informar um CEP valido
+        1.1.11. Clicar no botão Calcular
+        1.1.12. Selecionar a opção de frete SEDEX
+        1.1.13. Validar e o Total esta calculando o valor do produto com o Frete selecionado
+        1.1.14. Validar se a mensagem "via Boleto Bancário por x valor com 10% de desconto" aparece abaixo do Total
+
+    1.2. Compra de produto com categoria - 1 Nível ao carrinho com cupom FRETEGRATIS 
+        1.2.1. Selecionar produto categoria - 1 nivel ao carrinho
+        1.2.2. Validar se aparece na tela o subtitulo [CATEGORIA] Produto com categoria - 1 Nível
+        1.2.3. Clicar no Botão Comprar
+        1.2.4. Validar se realmente esta dentro do carrinho e aparece a mensagem 'Clique em finalizar compra para efetuar o seu pedido'
+        1.2.5. Validar se o nome do produto aparece [CATEGORIA] Produto com categoria - 1 Nível
+        1.2.6. Validar se o Preço unitário esta visível
+        1.2.7. Validar se a Quantidade esta visível
+        1.2.8. Validar se o Subtotal do produto esta visível
+        1.2.9. Validar se o Subtotal da compra esta visível
+        1.2.10. Informar um CEP valido
+        1.2.11. Clicar no botão Calcular
+        1.2.12. Selecionar a opção de frete SEDEX
+        1.2.13. Informar o cupom "FRETEGRATIS"
+        1.2.14. Clicar no botão "Usar cupom"
+        1.2.15. Validar se aparece mensagem com o Cupom de Desconto usado
+        1.2.16. Validar e o Total esta calculando o valor do produto com o Frete selecionado
+        
+
+    1.3. Compra de produto com categoria - 1 Nível ao carrinho com cupom CUPOMVENCIDO 
+        1.3.1. Selecionar produto categoria - 1 nivel ao carrinho
+        1.3.2. Validar se aparece na tela o subtitulo [CATEGORIA] Produto com categoria - 1 Nível
+        1.3.3. Clicar no Botão Comprar
+        1.3.4. Validar se realmente esta dentro do carrinho e aparece a mensagem 'Clique em finalizar compra para efetuar o seu pedido'
+        1.3.5. Validar se o nome do produto aparece [CATEGORIA] Produto com categoria - 1 Nível
+        1.3.6. Validar se o Preço unitário esta visível
+        1.3.7. Validar se a Quantidade esta visível
+        1.3.8. Validar se o Subtotal do produto esta visível
+        1.3.9. Validar se o Subtotal da compra esta visível
+        1.3.10. Informar um CEP valido
+        1.3.11. Clicar no botão Calcular
+        1.3.12. Selecionar a opção de frete SEDEX
+        1.3.13. Informar o cupom "CUPOMVENCIDO"
+        1.3.14. Clicar no botão "Usar cupom"
+        1.3.15. Validar se aparece mensagem que o Cupom não é válido
+        1.3.16. Validar e o Total esta calculando o valor do produto com o Frete selecionado
+        1.3.17. Validar se a mensagem "via Boleto Bancário por x valor com 10% de desconto" aparece abaixo do Total
+
+    1.4. Compra de produto com categoria - 1 Nível ao carrinho com cupom AJJFLWBHH 
+        1.2.1. Selecionar produto categoria - 1 nivel ao carrinho
+        1.2.2. Validar se aparece na tela o subtitulo [CATEGORIA] Produto com categoria - 1 Nível
+        1.2.3. Clicar no Botão Comprar
+        1.2.4. Validar se realmente esta dentro do carrinho e aparece a mensagem 'Clique em finalizar compra para efetuar o seu pedido'
+        1.2.5. Validar se o nome do produto aparece [CATEGORIA] Produto com categoria - 1 Nível
+        1.2.6. Validar se o Preço unitário esta visível
+        1.2.7. Validar se a Quantidade esta visível
+        1.2.8. Validar se o Subtotal do produto esta visível
+        1.2.9. Validar se o Subtotal da compra esta visível
+        1.2.10. Informar um CEP valido
+        1.2.11. Clicar no botão Calcular
+        1.2.12. Selecionar a opção de frete SEDEX
+        1.2.13. Informar o cupom "AJJFLWBHH"
+        1.2.14. Clicar no botão "Usar cupom"
+        1.2.15. Validar se aparece mensagem com o Cupom de Desconto usado
+        1.2.16. Validar e o Total esta calculando o valor do produto com o Frete selecionado
+        1.1.17. Validar se a mensagem "via Boleto Bancário por x valor com 10% de desconto" aparece abaixo do Total
