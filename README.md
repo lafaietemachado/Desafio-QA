@@ -10,7 +10,7 @@
 ## Instalação e execução
 
 #### Requisitos:
-  - Node: a partir da versão 12 (Projeto realizado na versão 14.15.1)
+  - Node: a partir da versão 12 (Projeto realizado na versão 16.16.0)
   - Hardware: 4GB Ram min, 8GB RAM recomendado
 
   - Execução e boas práticas:
@@ -19,7 +19,7 @@
     - Ex:
       - Com o terminal aberto:
 
-        cd C:\Users\users\Documents\Desafio QA
+        cd C:\GitHub\Desafio-QA
         git clone 'link do projeto'
         npm install
         ###
