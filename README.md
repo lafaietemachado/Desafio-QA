@@ -14,7 +14,7 @@
   - Hardware: 4GB Ram min, 8GB RAM recomendado
 
   - Execução e boas práticas:
-    - Criar uma pasta com nome "Desafio QA" na pasta "Meus Documentos" da máquina (C:\GitHub\Desafio-QA)
+    - Criar uma pasta com nome "Desafio QA" na raiz da máquina (C:\GitHub\Desafio-QA)
     - Realizar o git clone para essa pasta e instalar dependências do node
     - Ex:
       - Com o terminal aberto:
