@@ -1,8 +1,8 @@
 # Projeto QA Store Desafio
 
 - Objetivo: automatizar cenários de teste visando tempo, qualidade do projeto e avaliação do candidato
-- Squad: Teste para vaga de QA
-- Coordenador: Carla
+- Squad: Estudos de Automação
+- Coordenador: Inexistente
 - P.O.: Inexistente
 - Tech leads: Inexistente
 - QA: Lafaiete Rodrigues Machado
