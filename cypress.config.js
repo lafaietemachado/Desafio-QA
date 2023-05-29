@@ -17,6 +17,7 @@ module.exports = defineConfig({
     saveAllAttempts: false,
   },
   e2e: {
+    baseUrl: 'https://qastoredesafio.lojaintegrada.com.br/',
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },

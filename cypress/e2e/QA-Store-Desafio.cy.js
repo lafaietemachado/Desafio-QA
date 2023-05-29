@@ -3,7 +3,7 @@
 describe('homePage', () => {
 
     beforeEach(() => {
-        cy.visit('https://qastoredesafio.lojaintegrada.com.br/')
+        cy.visit('/')
     })
     it('Verifica o título da página', () => {
         cy.title().should('be.equal', 'QA Store Desafio')
