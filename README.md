@@ -35,5 +35,7 @@
 
       - Execução:
         abrir interface do cypress: npx run cy:open
+
         executar em modo headless: npx run cy:run
+        
         executar em modo headless gerando relatório do mochawesome: npx cypress run --reporter mochawesome
