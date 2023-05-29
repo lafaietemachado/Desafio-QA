@@ -13,6 +13,7 @@
   "devDependencies": {
     "@faker-js/faker": "^7.6.0",
     "cypress": "^12.12.0",
+    "gerador-validador-cpf": "^5.0.2",
     "mochawesome": "^7.1.3"
   }
 }
