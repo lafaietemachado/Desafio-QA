@@ -1,11 +1,21 @@
-/// <reference types="cypress" />
+import { faker } from '@faker-js/faker';
 
-import '../support/commands'
+const cpf = require('gerador-validador-cpf');
 
-describe('login', () => {
-      it('login', () => {
-        cy.login()
-       
-        cy.get('.btn-group > .botao').contains('Olá, Alícia Luciana Almeida')
+describe('Login', () => {
+    beforeEach(() => {
+        cy.visit('/');
+            })
+          
+    it('createRegister', () => {
+
+        cy.get('.bem-vindo > .cor-principal').click();
+        const register = {
+            email: faker.internet.email(),
+            randomName: `${faker.internet.userName()} ${faker.name.lastName()}`,
+            randomCPF: cpf.generate()
+        }
+        
+        cy.login(register);
     })
 })
