@@ -1,4 +1,4 @@
-Cypress.Commands.add('register', register => {
+Cypress.Commands.add('register', (register) => {
   
   cy.get('.bem-vindo > .cor-principal').click();
   cy.get('fieldset > div > #id_email').type(register.email.toLowerCase());
@@ -22,7 +22,7 @@ Cypress.Commands.add('register', register => {
   cy.get('.span3 > .principal').click()
 })
 
-Cypress.Commands.add('login', register => {
+Cypress.Commands.add('login', (register) => {
   cy.get('.bem-vindo > .cor-principal').click();
   cy.get('fieldset > div > #id_email').type(register.email.toLowerCase());
   cy.get('fieldset > div > .botao').click();
