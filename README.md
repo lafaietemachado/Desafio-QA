@@ -45,17 +45,17 @@
 A aplicação consiste em escrever testes para alguns cenários conforme descrito abaixo, baseado nas APIs do Star Wars, disponível em: https://swapi.dev
 
 Deverão ser desenvolvidos os cenários para teste das seguintes operações:
-  - 1. Validar o formato da request (json válido) para a seguinte API: https://swapi.dev/api/films/?format=json
+  - Validar o formato da request (json válido) para a seguinte API: https://swapi.dev/api/films/?format=json
 
-  - 2. Validar retornos para URLs inválidas, como por exemplo: https://swapi.dev/api/people/?format=jsonx
+  - Validar retornos para URLs inválidas, como por exemplo: https://swapi.dev/api/people/?format=jsonx
 
-  - 3. Validar se o filme 10 é válido e qual o tipo de retorno ao consultar;
+  - Validar se o filme 10 é válido e qual o tipo de retorno ao consultar;
 
-  - 4. Validar o nome correto de um determinado episódio de filme;
+  - Validar o nome correto de um determinado episódio de filme;
 
-  - 5. Validar o ID do episódio e se o tipo do dado está correto
+  - Validar o ID do episódio e se o tipo do dado está correto
 
-  - 6. Validar o formato de data válida (padrão americano) e validar se a data não é
+  - Validar o formato de data válida (padrão americano) e validar se a data não é
 padrão Brasil
 
-  - 7. Validar o peso e a altura do “people” C-3PO disponível em https://swapi.dev/api/people e validar pelo menos um filme que ele tenha participado
+  - Validar o peso e a altura do “people” C-3PO disponível em https://swapi.dev/api/people e validar pelo menos um filme que ele tenha participado
